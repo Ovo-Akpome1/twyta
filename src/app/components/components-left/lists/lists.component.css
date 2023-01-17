@@ -1,0 +1,8 @@
+.lists-container {
+  display: flex;
+  align-items: center;
+}
+
+.lists-container fa-icon {
+  margin-right: 10px;
+}

@@ -13,6 +13,9 @@ import { ListsComponent } from './components/components-left/lists/lists.compone
 import { ProfileComponent } from './components/components-left/profile/profile.component';
 import { MoreComponent } from './components/components-left/more/more.component';
 import { TweetComponent } from './components/components-left/tweet/tweet.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LeftComponentsComponent } from './components/components-left/left-components/left-components.component';
+
 
 @NgModule({
   declarations: [
@@ -26,11 +29,13 @@ import { TweetComponent } from './components/components-left/tweet/tweet.compone
     ListsComponent,
     ProfileComponent,
     MoreComponent,
-    TweetComponent
+    TweetComponent,
+    LeftComponentsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

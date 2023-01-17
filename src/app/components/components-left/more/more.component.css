@@ -1,0 +1,8 @@
+.more-container {
+  display: flex;
+  align-items: center;
+}
+
+.more-container fa-icon {
+  margin-right: 13px;
+}

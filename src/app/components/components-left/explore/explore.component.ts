@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faHashtag} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-explore',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./explore.component.css']
 })
 export class ExploreComponent {
-
+  faHashtag = faHashtag;
 }

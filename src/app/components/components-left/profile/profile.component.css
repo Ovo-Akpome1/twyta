@@ -1,0 +1,8 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container fa-icon {
+  margin-right: 16px;
+}

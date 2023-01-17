@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-app-icon',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-icon.component.css']
 })
 export class AppIconComponent {
-
+  faTwitter = faTwitter;
 }

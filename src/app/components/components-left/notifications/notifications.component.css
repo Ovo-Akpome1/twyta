@@ -1,0 +1,8 @@
+.notification-container {
+  display: flex;
+  align-items: center;
+}
+
+.notification-container fa-icon {
+  margin-right: 13px;
+}

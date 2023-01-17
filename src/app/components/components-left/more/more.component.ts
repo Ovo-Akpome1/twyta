@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faDotCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-more',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./more.component.css']
 })
 export class MoreComponent {
-
+faDotCircle = faDotCircle;
 }

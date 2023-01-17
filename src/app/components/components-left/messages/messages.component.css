@@ -1,0 +1,8 @@
+.messages-container {
+  display: flex;
+  align-items: center;
+}
+
+.messages-container fa-icon {
+  margin-right: 11.5px;
+}

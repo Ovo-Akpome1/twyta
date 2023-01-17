@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBell} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-notifications',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./notifications.component.css']
 })
 export class NotificationsComponent {
-
+  faBell = faBell;
 }

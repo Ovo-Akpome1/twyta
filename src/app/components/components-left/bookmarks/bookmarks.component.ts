@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBookmark} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-bookmarks',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./bookmarks.component.css']
 })
 export class BookmarksComponent {
-
+ faBookmark = faBookmark;
 }

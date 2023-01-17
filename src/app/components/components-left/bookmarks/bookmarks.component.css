@@ -1,0 +1,8 @@
+.bookmarks-container {
+  display: flex;
+  align-items: center;
+}
+
+.bookmarks-container fa-icon {
+  margin-right: 14px; /* adjust as needed */
+}
